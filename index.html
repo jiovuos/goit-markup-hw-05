@@ -511,5 +511,78 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <div class="modal-header">
+          <span class="modal-title"
+            >Leave your contacts and we will call you back</span
+          >
+          <button class="modal-close" type="button">
+            <svg class="modal-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+        <form class="modal-form">
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+            <svg class="name-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+            <svg class="phone-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <svg class="email-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="comments">Comment</label>
+            <textarea
+              id="comments"
+              name="comments"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="agreement" name="agreement" required />
+            <label class="checkbox-custom" for="agreement">
+              <svg class="checkbox-icon" width="10" height="7">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+            </label>
+            <label class="checkbox-label" for="agreement"
+              >I accept the terms and conditions of the
+              <a class="checkbox-link" href="#">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
