@@ -512,7 +512,7 @@
         <div class="footer-form-container">
           <p class="footer-form-title">Subscribe</p>
           <form class="footer-form">
-            <label for="email">
+            <label class="footer-form-label" for="email">
               <input
                 class="footer-form-input"
                 type="email"
@@ -532,7 +532,7 @@
       </div>
     </footer>
     <!-- BACKDROP -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <!-- MODAL -->
       <div class="modal">
         <button class="modal-close-btn" type="button">
@@ -597,6 +597,7 @@
           <div class="modal-field">
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
+              class="modal-input"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
@@ -610,6 +611,7 @@
               name="user-privacy"
               id="user-privacy"
               class="modal-checkbox visually-hidden"
+              value="true"
               required
             />
             <label class="modal-checkbox-label" for="user-privacy">
@@ -619,8 +621,8 @@
             </label>
             <label class="modal-checkbox-text" for="user-privacy">
               I accept the terms and conditions of the
-              <a class="modal-checkbox-link" href="">Privacy Policy</a>
             </label>
+            <a class="modal-checkbox-link" href="">Privacy Policy</a>
           </div>
 
           <!-- Button -->
