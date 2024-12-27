@@ -594,7 +594,7 @@
           </div>
 
           <!-- Comment -->
-          <div class="modal-field">
+          <div class="modal-field modal-field-comment">
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-input"
@@ -610,11 +610,16 @@
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
-              class="modal-checkbox"
+              class="visually-hidden"
               value="true"
               required
             />
             <label class="modal-checkbox-text" for="user-privacy">
+              <span class="modal-checkbox-icon">
+                <svg class="modal-checkbox-icon-checked" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
             </label>
             <a class="modal-checkbox-link" href="">Privacy Policy</a>
