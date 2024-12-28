@@ -779,19 +779,9 @@ textarea#user-comment:focus {
   display: none;
 }
 
-.modal-checkbox-container
-  input[type="checkbox"]:checked
-  + .modal-checkbox-text
-  .modal-checkbox-icon {
+.checkbox:checked + .modal-checkbox-text .modal-checkbox-icon {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-checkbox-container
-  input[type="checkbox"]:checked
-  + .modal-checkbox-text
-  .modal-checkbox-icon-checked {
-  display: block;
   fill: #f4f4fd;
 }
 
