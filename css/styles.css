@@ -1,9 +1,4 @@
 /* General Styles */
-
-:root {
-  --icon-checked-color: #f4f4fd;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -797,7 +792,7 @@ textarea#user-comment:focus {
   + .modal-checkbox-text
   .modal-checkbox-icon-checked {
   display: block;
-  fill: var(--icon-checked-color);
+  fill: #f4f4fd;
 }
 
 .modal-checkbox-icon {
