@@ -779,12 +779,19 @@ textarea#user-comment:focus {
   display: none;
 }
 
-.modal-checkbox-container input[type="checkbox"]:checked + .modal-checkbox-text .modal-checkbox-icon {
+.modal-checkbox-container
+  input[type="checkbox"]:checked
+  + .modal-checkbox-text
+  .modal-checkbox-icon {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-checkbox-container input[type="checkbox"]:checked + .modal-checkbox-text .modal-checkbox-icon svg {
+.modal-checkbox-container
+  input[type="checkbox"]:checked
+  + .modal-checkbox-text
+  .modal-checkbox-icon
+  svg {
   display: block;
   fill: #f4f4fd;
 }
@@ -793,7 +800,7 @@ textarea#user-comment:focus {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
