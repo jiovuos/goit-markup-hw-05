@@ -1,7 +1,7 @@
 /* General Styles */
 
 :root {
-  --icon-checked-color: #F4F4FD;
+  --icon-checked-color: #f4f4fd;
 }
 
 body {
@@ -795,8 +795,7 @@ textarea#user-comment:focus {
 .modal-checkbox-container
   input[type="checkbox"]:checked
   + .modal-checkbox-text
-  .modal-checkbox-icon
-  svg {
+  .modal-checkbox-icon-checked {
   display: block;
   fill: var(--icon-checked-color);
 }
