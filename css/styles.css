@@ -1,4 +1,9 @@
 /* General Styles */
+
+:root {
+  --icon-checked-color: #F4F4FD;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -793,7 +798,7 @@ textarea#user-comment:focus {
   .modal-checkbox-icon
   svg {
   display: block;
-  fill: #f4f4fd;
+  fill: var(--icon-checked-color);
 }
 
 .modal-checkbox-icon {
